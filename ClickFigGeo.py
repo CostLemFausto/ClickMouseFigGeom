@@ -7,7 +7,7 @@ def Retangulo(event,x,y,flags,param):
 
 cv.namedWindow(winname='imagem')
 cv.setMouseCallback('imagem', Retangulo )
-img = cv.imread("/home/takion/Documentos/Pixel/clin2.PNG")
+img = cv.imread("/Endereço da imagem/imagem.extenção")
 
 while True:    
     cv.imshow("imagem", img)
